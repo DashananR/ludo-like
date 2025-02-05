@@ -1,0 +1,179 @@
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#main{
+    background-image: url(WhatsApp\ Image\ 2024-10-05\ at\ 11.52.26_36689c35.jpg);
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    margin-right: 20%;
+}
+
+.main-steps1, .main-steps3{
+/* background-color: white; */
+height: 37%;
+width: 18%;
+margin-top: 25px;
+display: flex;
+}
+
+.main-steps3o0{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-steps3{
+    margin-top: 0;
+    height: 36.7%;
+    display: flex;
+}
+
+.main-steps2{
+    /* background-color: aqua; */
+    height: 18%;
+    width: 91.6%;
+    display: flex;
+}
+
+.main2-steps1, .main2-steps2{
+    /* background-color: rgb(255, 255, 255); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main2-steps2{
+    margin-left: 110px;
+}
+
+.step-holder1, .step-holder2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.step-holder1{
+    flex-direction: row;
+}
+
+.step{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: yellow; */
+}
+.token{
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(192, 84, 17); */
+    display: none;
+}
+
+
+.dice{
+    width: 50px;
+    height: 50px;
+    background-image: url(WhatsApp\ Image\ 2024-10-05\ at\ 11.52.26_36689c35.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+    left: 14%;
+    margin-top: 35%;
+}
+
+/* .diceOfBlue{
+    width: 50px;
+    height: 50px;
+    background-image: url(no.1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+    left: 15.8%;
+    margin-bottom: 40%;
+} */
+
+.home{
+    position: relative;
+    left: 27%;
+    /* background-color: aqua; */
+    width: 9%;
+    height: 110px;
+    z-index: 1;
+    margin-left: 100px;
+}
+
+#s58, #s64, #s76, #s70{
+    height: 40px;
+    width: 40px;
+    /* background-color: aqua; */
+}
+
+#s70{
+    /* background-color: blue; */
+    position: relative;
+    top: 30%;
+}
+
+#s64{
+    /* background-color: green; */
+    position: relative;
+    left: 65%;
+    bottom: 40%;
+}
+
+#s76{
+    /* background-color: red; */
+    position: relative;
+    left: 32%;
+    bottom: 37%;
+}
+
+#s58{
+    /* background-color: yellow; */
+    position: relative;
+    left: 32%;
+    bottom: 45%;
+}
+
+p{
+    font-size: 0px;
+
+}
+
+
+
+
+
+
+
+
